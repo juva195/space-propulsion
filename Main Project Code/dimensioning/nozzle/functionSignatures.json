@@ -1,0 +1,32 @@
+{
+    "buildNozzle":
+    {
+        "inputs":
+        [
+            {"name":"dThroat",  "kind":"required", "type":["numeric"]},
+            {"name":"dChamber",  "kind":"required", "type":["numeric"]},
+            {"name":"exRatio",  "kind":"required", "type":["numeric"]},
+            {"name":"type", "kind":"optional", "type":["string", "choices={'conic','rao'}"]}
+        ]
+    },
+    "createRaoAnglesDatabase":
+    {
+        "inputs":
+        [
+        ]
+    },
+    "raoNozzle":
+    {
+        "inputs":
+        [
+            {"name":"dThroat",  "kind":"required", "type":["numeric"]},
+            {"name":"dChamber",  "kind":"required", "type":["numeric"]},
+            {"name":"exRatio",  "kind":"required", "type":["numeric"]},
+            {"name":"relativeLenght", "kind":"required", "type":["numeric"]}
+        ]
+    }
+}
+
+
+
+
